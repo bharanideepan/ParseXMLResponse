@@ -15,7 +15,8 @@
 		048582612431B5F3001042B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0485825F2431B5F3001042B2 /* LaunchScreen.storyboard */; };
 		048582692431C3DE001042B2 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048582682431C3DE001042B2 /* Request.swift */; };
 		0485826B2431EB72001042B2 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0485826A2431EB72001042B2 /* Response.swift */; };
-		0485826D2431F00D001042B2 /* response.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0485826C2431F00D001042B2 /* response.xml */; };
+		0485827D24323A3A001042B2 /* JsonResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0485827C24323A3A001042B2 /* JsonResponse.swift */; };
+		04858283243247AE001042B2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04858282243247AE001042B2 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +30,8 @@
 		048582622431B5F3001042B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		048582682431C3DE001042B2 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		0485826A2431EB72001042B2 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
-		0485826C2431F00D001042B2 /* response.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = response.xml; sourceTree = "<group>"; };
+		0485827C24323A3A001042B2 /* JsonResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonResponse.swift; sourceTree = "<group>"; };
+		04858282243247AE001042B2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +73,8 @@
 				048582622431B5F3001042B2 /* Info.plist */,
 				048582682431C3DE001042B2 /* Request.swift */,
 				0485826A2431EB72001042B2 /* Response.swift */,
-				0485826C2431F00D001042B2 /* response.xml */,
+				0485827C24323A3A001042B2 /* JsonResponse.swift */,
+				04858282243247AE001042B2 /* SecondViewController.swift */,
 			);
 			path = "Sample URLSession";
 			sourceTree = "<group>";
@@ -136,7 +139,6 @@
 			files = (
 				048582612431B5F3001042B2 /* LaunchScreen.storyboard in Resources */,
 				0485825E2431B5F3001042B2 /* Assets.xcassets in Resources */,
-				0485826D2431F00D001042B2 /* response.xml in Resources */,
 				0485825C2431B5F2001042B2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,6 +150,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04858283243247AE001042B2 /* SecondViewController.swift in Sources */,
+				0485827D24323A3A001042B2 /* JsonResponse.swift in Sources */,
 				048582592431B5F2001042B2 /* ViewController.swift in Sources */,
 				048582692431C3DE001042B2 /* Request.swift in Sources */,
 				048582552431B5F2001042B2 /* AppDelegate.swift in Sources */,
