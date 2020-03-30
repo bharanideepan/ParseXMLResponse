@@ -1,0 +1,911 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GetRecipientsResponse xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+   <ErrorCode>1</ErrorCode>
+   <ErrorDescription>Success</ErrorDescription>
+   <ErrorDetails />
+   <RequestId>45798525-D8FD-4A1E-8F97-92636802F287</RequestId>
+   <RecipientItems>
+      <RecipientItem>
+         <City />
+         <Country>India</Country>
+         <CustomProperties>
+            <NameValuePair>
+               <Name>Relationship</Name>
+               <Value>R04</Value>
+            </NameValuePair>
+            <NameValuePair>
+               <Name>TransactionPurposeId</Name>
+               <Value>1</Value>
+            </NameValuePair>
+         </CustomProperties>
+         <EmailAddress>navinharthick6767@gmail.com</EmailAddress>
+         <FirstName>Naveen</FirstName>
+         <Id>75322</Id>
+         <LastName>M</LastName>
+         <MiddleName>Kumar</MiddleName>
+         <MobileNumber>9999999999</MobileNumber>
+         <PhoneNumber i:nil="true" />
+         <PostalCode />
+         <RemitDisabled>False</RemitDisabled>
+         <RemittanceCurrency>INR</RemittanceCurrency>
+         <RemittanceGatewayId>46</RemittanceGatewayId>
+         <SecurityCode>af25c3ce-8073-41a3-8ea0-47155dd8b1c5</SecurityCode>
+         <State />
+         <StreetAddress1>Hi</StreetAddress1>
+         <StreetAddress2 />
+         <TransactionPurposeId>1</TransactionPurposeId>
+      </RecipientItem>
+      <RecipientItem>
+         <City />
+         <Country>India</Country>
+         <CustomProperties>
+            <NameValuePair>
+               <Name>Relationship</Name>
+               <Value>R17</Value>
+            </NameValuePair>
+            <NameValuePair>
+               <Name>TransactionPurposeId</Name>
+               <Value>2</Value>
+            </NameValuePair>
+         </CustomProperties>
+         <EmailAddress>navinharthick6767@gmail.com</EmailAddress>
+         <FirstName>Naveen</FirstName>
+         <Id>75323</Id>
+         <LastName>M</LastName>
+         <MiddleName>Kumar</MiddleName>
+         <MobileNumber>9999999999</MobileNumber>
+         <PhoneNumber i:nil="true" />
+         <PostalCode />
+         <RemitDisabled>False</RemitDisabled>
+         <RemittanceCurrency>INR</RemittanceCurrency>
+         <RemittanceGatewayId>46</RemittanceGatewayId>
+         <SecurityCode>5ecac7c1-62b5-4324-bbad-506bc3307902</SecurityCode>
+         <State />
+         <StreetAddress1>Bh</StreetAddress1>
+         <StreetAddress2 />
+         <TransactionPurposeId>2</TransactionPurposeId>
+      </RecipientItem>
+      <RecipientItem>
+         <City />
+         <Country>India</Country>
+         <CustomProperties>
+            <NameValuePair>
+               <Name>Relationship</Name>
+               <Value>R23</Value>
+            </NameValuePair>
+            <NameValuePair>
+               <Name>TransactionPurposeId</Name>
+               <Value>2</Value>
+            </NameValuePair>
+         </CustomProperties>
+         <EmailAddress>navinharthick6767@gmail.com</EmailAddress>
+         <FirstName>Naveen</FirstName>
+         <Id>75324</Id>
+         <LastName>M</LastName>
+         <MiddleName>Kumar</MiddleName>
+         <MobileNumber>9999999999</MobileNumber>
+         <PhoneNumber i:nil="true" />
+         <PostalCode />
+         <RemitDisabled>False</RemitDisabled>
+         <RemittanceCurrency>INR</RemittanceCurrency>
+         <RemittanceGatewayId>46</RemittanceGatewayId>
+         <SecurityCode>2a10c1ae-b9d9-4f18-b202-4d3ddf235854</SecurityCode>
+         <State />
+         <StreetAddress1>Bh</StreetAddress1>
+         <StreetAddress2 />
+         <TransactionPurposeId>2</TransactionPurposeId>
+      </RecipientItem>
+      <RecipientItem>
+         <City />
+         <Country>India</Country>
+         <CustomProperties>
+            <NameValuePair>
+               <Name>Relationship</Name>
+               <Value>R07</Value>
+            </NameValuePair>
+            <NameValuePair>
+               <Name>TransactionPurposeId</Name>
+               <Value>2</Value>
+            </NameValuePair>
+         </CustomProperties>
+         <EmailAddress>navinharthick6767@gmail.com</EmailAddress>
+         <FirstName>Naveen</FirstName>
+         <Id>75325</Id>
+         <LastName>M</LastName>
+         <MiddleName>Kumar</MiddleName>
+         <MobileNumber>9999999999</MobileNumber>
+         <PhoneNumber i:nil="true" />
+         <PostalCode />
+         <RemitDisabled>False</RemitDisabled>
+         <RemittanceCurrency>INR</RemittanceCurrency>
+         <RemittanceGatewayId>46</RemittanceGatewayId>
+         <SecurityCode>8ac72ada-1eaa-40c6-9195-fc39e93eafde</SecurityCode>
+         <State />
+         <StreetAddress1>Tt</StreetAddress1>
+         <StreetAddress2 />
+         <TransactionPurposeId>2</TransactionPurposeId>
+      </RecipientItem>
+      <RecipientItem>
+         <City />
+         <Country>India</Country>
+         <CustomProperties>
+            <NameValuePair>
+               <Name>Relationship</Name>
+               <Value>R06</Value>
+            </NameValuePair>
+            <NameValuePair>
+               <Name>TransactionPurposeId</Name>
+               <Value>1</Value>
+            </NameValuePair>
+         </CustomProperties>
+         <EmailAddress>navinharthick6767@gmail.com</EmailAddress>
+         <FirstName>Naveen</FirstName>
+         <Id>75427</Id>
+         <LastName>M</LastName>
+         <MiddleName>Kumar</MiddleName>
+         <MobileNumber>9999999999</MobileNumber>
+         <PhoneNumber i:nil="true" />
+         <PostalCode />
+         <RemitDisabled>False</RemitDisabled>
+         <RemittanceCurrency>INR</RemittanceCurrency>
+         <RemittanceGatewayId>46</RemittanceGatewayId>
+         <SecurityCode>b3629563-7127-4726-bf95-bebfc89c984e</SecurityCode>
+         <State />
+         <StreetAddress1>Hello</StreetAddress1>
+         <StreetAddress2 />
+         <TransactionPurposeId>1</TransactionPurposeId>
+      </RecipientItem>
+      <RecipientItem>
+         <City />
+         <Country>India</Country>
+         <CustomProperties>
+            <NameValuePair>
+               <Name>Relationship</Name>
+               <Value>R07</Value>
+            </NameValuePair>
+            <NameValuePair>
+               <Name>TransactionPurposeId</Name>
+               <Value>2</Value>
+            </NameValuePair>
+         </CustomProperties>
+         <EmailAddress />
+         <FirstName>Aaaaaaaaaa</FirstName>
+         <Id>85277</Id>
+         <LastName>J</LastName>
+         <MiddleName />
+         <MobileNumber>1587-678-78</MobileNumber>
+         <PhoneNumber i:nil="true" />
+         <PostalCode />
+         <RemitDisabled>False</RemitDisabled>
+         <RemittanceCurrency>INR</RemittanceCurrency>
+         <RemittanceGatewayId>46</RemittanceGatewayId>
+         <SecurityCode>2ef75917-a392-4a7e-93af-a028bee8afc7</SecurityCode>
+         <State />
+         <StreetAddress1>H</StreetAddress1>
+         <StreetAddress2 />
+         <TransactionPurposeId>2</TransactionPurposeId>
+      </RecipientItem>
+      <RecipientItem>
+         <City />
+         <Country>India</Country>
+         <CustomProperties>
+            <NameValuePair>
+               <Name>beneficiaryAccountNo</Name>
+               <Value>600601509476</Value>
+            </NameValuePair>
+            <NameValuePair>
+               <Name>beneficiaryIFSC</Name>
+               <Value>ICIC0006006</Value>
+            </NameValuePair>
+            <NameValuePair>
+               <Name>TransactionPurposeId</Name>
+               <Value>1</Value>
+            </NameValuePair>
+         </CustomProperties>
+         <EmailAddress />
+         <FirstName>Aaadvik</FirstName>
+         <Id>95361</Id>
+         <LastName>H</LastName>
+         <MiddleName />
+         <MobileNumber>+919092132962</MobileNumber>
+         <PhoneNumber i:nil="true" />
+         <PostalCode />
+         <RemitDisabled>False</RemitDisabled>
+         <RemittanceCurrency>INR</RemittanceCurrency>
+         <RemittanceGatewayId>60</RemittanceGatewayId>
+         <SecurityCode>a70c9cf8-7efd-466e-aa18-42799ae2b6d7</SecurityCode>
+         <State />
+         <StreetAddress1>G</StreetAddress1>
+         <StreetAddress2 />
+         <TransactionPurposeId>1</TransactionPurposeId>
+      </RecipientItem>
+      <RecipientItem>
+         <City />
+         <Country>India</Country>
+         <CustomProperties>
+            <NameValuePair>
+               <Name>beneficiaryIFSC</Name>
+               <Value>ICIC0006006</Value>
+            </NameValuePair>
+            <NameValuePair>
+               <Name>beneficiaryAccountNo</Name>
+               <Value>600601509476</Value>
+            </NameValuePair>
+            <NameValuePair>
+               <Name>TransactionPurposeId</Name>
+               <Value>1</Value>
+            </NameValuePair>
+         </CustomProperties>
+         <EmailAddress />
+         <FirstName>Test</FirstName>
+         <Id>95362</Id>
+         <LastName>Test</LastName>
+         <MiddleName />
+         <MobileNumber>+919093232990</MobileNumber>
+         <PhoneNumber i:nil="true" />
+         <PostalCode />
+         <RemitDisabled>False</RemitDisabled>
+         <RemittanceCurrency>INR</RemittanceCurrency>
+         <RemittanceGatewayId>60</RemittanceGatewayId>
+         <SecurityCode>cd5b38e0-7cd4-40dc-abf3-54734dbaf6bc</SecurityCode>
+         <State />
+         <StreetAddress1>Test</StreetAddress1>
+         <StreetAddress2 />
+         <TransactionPurposeId>1</TransactionPurposeId>
+      </RecipientItem>
+      <RecipientItem>
+         <City />
+         <Country>India</Country>
+         <CustomProperties>
+            <NameValuePair>
+               <Name>beneficiaryIFSC</Name>
+               <Value />
+            </NameValuePair>
+            <NameValuePair>
+               <Name>beneficiaryAccountNo</Name>
+               <Value />
+            </NameValuePair>
+            <NameValuePair>
+               <Name>TransactionPurposeId</Name>
+               <Value>1</Value>
+            </NameValuePair>
+         </CustomProperties>
+         <EmailAddress>navinharthick6767@gmail.com</EmailAddress>
+         <FirstName>Naveen</FirstName>
+         <Id>75436</Id>
+         <LastName>M</LastName>
+         <MiddleName>Kumar</MiddleName>
+         <MobileNumber>9999999999</MobileNumber>
+         <PhoneNumber i:nil="true" />
+         <PostalCode />
+         <RemitDisabled>False</RemitDisabled>
+         <RemittanceCurrency>INR</RemittanceCurrency>
+         <RemittanceGatewayId>60</RemittanceGatewayId>
+         <SecurityCode>2faf6ff9-b500-4d57-8ebc-8c6b361a610f</SecurityCode>
+         <State />
+         <StreetAddress1>Bsns</StreetAddress1>
+         <StreetAddress2 />
+         <TransactionPurposeId>1</TransactionPurposeId>
+      </RecipientItem>
+      <RecipientItem>
+         <City />
+         <Country>India</Country>
+         <CustomProperties>
+            <NameValuePair>
+               <Name>beneficiaryAccountNo</Name>
+               <Value>912010021791997</Value>
+            </NameValuePair>
+            <NameValuePair>
+               <Name>beneficiaryIFSC</Name>
+               <Value>UTIB0000285</Value>
+            </NameValuePair>
+            <NameValuePair>
+               <Name>TransactionPurposeId</Name>
+               <Value>1</Value>
+            </NameValuePair>
+         </CustomProperties>
+         <EmailAddress />
+         <FirstName>Panda</FirstName>
+         <Id>75312</Id>
+         <LastName>M</LastName>
+         <MiddleName />
+         <MobileNumber>9092132962</MobileNumber>
+         <PhoneNumber i:nil="true" />
+         <PostalCode />
+         <RemitDisabled>False</RemitDisabled>
+         <RemittanceCurrency>INR</RemittanceCurrency>
+         <RemittanceGatewayId>60</RemittanceGatewayId>
+         <SecurityCode>a11cdd57-0e8a-4082-99dc-2308fe9e5f75</SecurityCode>
+         <State />
+         <StreetAddress1>Guindy</StreetAddress1>
+         <StreetAddress2 />
+         <TransactionPurposeId>1</TransactionPurposeId>
+      </RecipientItem>
+      <RecipientItem>
+         <City />
+         <Country>India</Country>
+         <CustomProperties>
+            <NameValuePair>
+               <Name>beneficiaryIFSC</Name>
+               <Value />
+            </NameValuePair>
+            <NameValuePair>
+               <Name>beneficiaryAccountNo</Name>
+               <Value />
+            </NameValuePair>
+            <NameValuePair>
+               <Name>TransactionPurposeId</Name>
+               <Value>1</Value>
+            </NameValuePair>
+         </CustomProperties>
+         <EmailAddress />
+         <FirstName>Swathy</FirstName>
+         <Id>75313</Id>
+         <LastName>Anand</LastName>
+         <MiddleName />
+         <MobileNumber>9840389682</MobileNumber>
+         <PhoneNumber i:nil="true" />
+         <PostalCode />
+         <RemitDisabled>False</RemitDisabled>
+         <RemittanceCurrency>INR</RemittanceCurrency>
+         <RemittanceGatewayId>60</RemittanceGatewayId>
+         <SecurityCode>67bf89da-0a56-4abf-8c44-e9d450fcb2c2</SecurityCode>
+         <State />
+         <StreetAddress1>Psg hostel</StreetAddress1>
+         <StreetAddress2 />
+         <TransactionPurposeId>1</TransactionPurposeId>
+      </RecipientItem>
+      <RecipientItem>
+         <City />
+         <Country>India</Country>
+         <CustomProperties>
+            <NameValuePair>
+               <Name>beneficiaryIFSC</Name>
+               <Value>IFSC0000001</Value>
+            </NameValuePair>
+            <NameValuePair>
+               <Name>beneficiaryAccountNo</Name>
+               <Value>5802684636762581</Value>
+            </NameValuePair>
+            <NameValuePair>
+               <Name>TransactionPurposeId</Name>
+               <Value>1</Value>
+            </NameValuePair>
+         </CustomProperties>
+         <EmailAddress />
+         <FirstName>Swathy</FirstName>
+         <Id>75314</Id>
+         <LastName>Anand</LastName>
+         <MiddleName />
+         <MobileNumber>9840389682</MobileNumber>
+         <PhoneNumber i:nil="true" />
+         <PostalCode />
+         <RemitDisabled>False</RemitDisabled>
+         <RemittanceCurrency>INR</RemittanceCurrency>
+         <RemittanceGatewayId>60</RemittanceGatewayId>
+         <SecurityCode>bb75ebd4-5678-43d7-8b29-7a256944c68d</SecurityCode>
+         <State />
+         <StreetAddress1>Psg hostel</StreetAddress1>
+         <StreetAddress2 />
+         <TransactionPurposeId>1</TransactionPurposeId>
+      </RecipientItem>
+      <RecipientItem>
+         <City />
+         <Country>India</Country>
+         <CustomProperties>
+            <NameValuePair>
+               <Name>beneficiaryAccountNo</Name>
+               <Value />
+            </NameValuePair>
+            <NameValuePair>
+               <Name>beneficiaryIFSC</Name>
+               <Value />
+            </NameValuePair>
+            <NameValuePair>
+               <Name>TransactionPurposeId</Name>
+               <Value>1</Value>
+            </NameValuePair>
+         </CustomProperties>
+         <EmailAddress>navinharthick6767@gmail.com</EmailAddress>
+         <FirstName>Naveen</FirstName>
+         <Id>75320</Id>
+         <LastName>M</LastName>
+         <MiddleName>Kumar</MiddleName>
+         <MobileNumber>9999999999</MobileNumber>
+         <PhoneNumber i:nil="true" />
+         <PostalCode />
+         <RemitDisabled>False</RemitDisabled>
+         <RemittanceCurrency>INR</RemittanceCurrency>
+         <RemittanceGatewayId>60</RemittanceGatewayId>
+         <SecurityCode>952fce9e-d432-41fd-9f77-0bff5261016b</SecurityCode>
+         <State />
+         <StreetAddress1>Test</StreetAddress1>
+         <StreetAddress2 />
+         <TransactionPurposeId>1</TransactionPurposeId>
+      </RecipientItem>
+      <RecipientItem>
+         <City />
+         <Country>India</Country>
+         <CustomProperties>
+            <NameValuePair>
+               <Name>beneficiaryAccountNo</Name>
+               <Value />
+            </NameValuePair>
+            <NameValuePair>
+               <Name>beneficiaryIFSC</Name>
+               <Value />
+            </NameValuePair>
+            <NameValuePair>
+               <Name>TransactionPurposeId</Name>
+               <Value>1</Value>
+            </NameValuePair>
+         </CustomProperties>
+         <EmailAddress>navinharthick6767@gmail.com</EmailAddress>
+         <FirstName>Naveen</FirstName>
+         <Id>75321</Id>
+         <LastName>M</LastName>
+         <MiddleName>Kumar</MiddleName>
+         <MobileNumber>9999999999</MobileNumber>
+         <PhoneNumber i:nil="true" />
+         <PostalCode />
+         <RemitDisabled>False</RemitDisabled>
+         <RemittanceCurrency>INR</RemittanceCurrency>
+         <RemittanceGatewayId>60</RemittanceGatewayId>
+         <SecurityCode>7c03db03-6a09-493e-a453-60ba4d2c0860</SecurityCode>
+         <State />
+         <StreetAddress1>Test</StreetAddress1>
+         <StreetAddress2 />
+         <TransactionPurposeId>1</TransactionPurposeId>
+      </RecipientItem>
+      <RecipientItem>
+         <City />
+         <Country>India</Country>
+         <CustomProperties>
+            <NameValuePair>
+               <Name>beneficiaryAccountNo</Name>
+               <Value />
+            </NameValuePair>
+            <NameValuePair>
+               <Name>beneficiaryIFSC</Name>
+               <Value />
+            </NameValuePair>
+            <NameValuePair>
+               <Name>TransactionPurposeId</Name>
+               <Value>2</Value>
+            </NameValuePair>
+         </CustomProperties>
+         <EmailAddress>navinharthick6767@gmail.com</EmailAddress>
+         <FirstName>Naveen</FirstName>
+         <Id>75326</Id>
+         <LastName>M</LastName>
+         <MiddleName>Kumar</MiddleName>
+         <MobileNumber>9999999999</MobileNumber>
+         <PhoneNumber i:nil="true" />
+         <PostalCode />
+         <RemitDisabled>False</RemitDisabled>
+         <RemittanceCurrency>INR</RemittanceCurrency>
+         <RemittanceGatewayId>60</RemittanceGatewayId>
+         <SecurityCode>6e54606e-99d5-4940-9c5f-a472c88e457b</SecurityCode>
+         <State />
+         <StreetAddress1>Tt</StreetAddress1>
+         <StreetAddress2 />
+         <TransactionPurposeId>2</TransactionPurposeId>
+      </RecipientItem>
+      <RecipientItem>
+         <City />
+         <Country>India</Country>
+         <CustomProperties>
+            <NameValuePair>
+               <Name>beneficiaryAccountNo</Name>
+               <Value>8214558555541</Value>
+            </NameValuePair>
+            <NameValuePair>
+               <Name>beneficiaryIFSC</Name>
+               <Value>GFEFGRECGGB</Value>
+            </NameValuePair>
+            <NameValuePair>
+               <Name>TransactionPurposeId</Name>
+               <Value>2</Value>
+            </NameValuePair>
+         </CustomProperties>
+         <EmailAddress>navinharthick6767@gmail.com</EmailAddress>
+         <FirstName>Naveen</FirstName>
+         <Id>75327</Id>
+         <LastName>M</LastName>
+         <MiddleName>Kumar</MiddleName>
+         <MobileNumber>9999999999</MobileNumber>
+         <PhoneNumber i:nil="true" />
+         <PostalCode />
+         <RemitDisabled>False</RemitDisabled>
+         <RemittanceCurrency>INR</RemittanceCurrency>
+         <RemittanceGatewayId>60</RemittanceGatewayId>
+         <SecurityCode>d121c718-6f73-4ff3-b3d3-5758e351c34c</SecurityCode>
+         <State />
+         <StreetAddress1>Tt</StreetAddress1>
+         <StreetAddress2 />
+         <TransactionPurposeId>2</TransactionPurposeId>
+      </RecipientItem>
+      <RecipientItem>
+         <City />
+         <Country>India</Country>
+         <CustomProperties>
+            <NameValuePair>
+               <Name>beneficiaryAccountNo</Name>
+               <Value>8214558555541</Value>
+            </NameValuePair>
+            <NameValuePair>
+               <Name>beneficiaryIFSC</Name>
+               <Value>GFEFGRECGGB</Value>
+            </NameValuePair>
+            <NameValuePair>
+               <Name>TransactionPurposeId</Name>
+               <Value>2</Value>
+            </NameValuePair>
+         </CustomProperties>
+         <EmailAddress>navinharthick6767@gmail.com</EmailAddress>
+         <FirstName>Naveen</FirstName>
+         <Id>75328</Id>
+         <LastName>M</LastName>
+         <MiddleName>Kumar</MiddleName>
+         <MobileNumber>9999999999</MobileNumber>
+         <PhoneNumber i:nil="true" />
+         <PostalCode />
+         <RemitDisabled>False</RemitDisabled>
+         <RemittanceCurrency>INR</RemittanceCurrency>
+         <RemittanceGatewayId>60</RemittanceGatewayId>
+         <SecurityCode>b3ee9dcd-b8a6-4916-b1bf-4fb2d6c0a372</SecurityCode>
+         <State />
+         <StreetAddress1>Tt</StreetAddress1>
+         <StreetAddress2 />
+         <TransactionPurposeId>2</TransactionPurposeId>
+      </RecipientItem>
+      <RecipientItem>
+         <City>Hello hehd</City>
+         <Country>India</Country>
+         <CustomProperties>
+            <NameValuePair>
+               <Name>beneficiaryAccountNo</Name>
+               <Value>45646464646646464646</Value>
+            </NameValuePair>
+            <NameValuePair>
+               <Name>beneficiaryIFSC</Name>
+               <Value>HDJDJSJJSJS</Value>
+            </NameValuePair>
+            <NameValuePair>
+               <Name>TransactionPurposeId</Name>
+               <Value>2</Value>
+            </NameValuePair>
+         </CustomProperties>
+         <EmailAddress>navinharthick6767@gmail.com</EmailAddress>
+         <FirstName>Naveen</FirstName>
+         <Id>75329</Id>
+         <LastName>M</LastName>
+         <MiddleName>Kumar</MiddleName>
+         <MobileNumber>9999999999</MobileNumber>
+         <PhoneNumber i:nil="true" />
+         <PostalCode />
+         <RemitDisabled>False</RemitDisabled>
+         <RemittanceCurrency>INR</RemittanceCurrency>
+         <RemittanceGatewayId>60</RemittanceGatewayId>
+         <SecurityCode>d6d1b725-fbff-4905-aa60-90287c66f916</SecurityCode>
+         <State />
+         <StreetAddress1>Shhd</StreetAddress1>
+         <StreetAddress2 />
+         <TransactionPurposeId>2</TransactionPurposeId>
+      </RecipientItem>
+      <RecipientItem>
+         <City>Hello hehd</City>
+         <Country>India</Country>
+         <CustomProperties>
+            <NameValuePair>
+               <Name>beneficiaryAccountNo</Name>
+               <Value>45646464646646464646</Value>
+            </NameValuePair>
+            <NameValuePair>
+               <Name>beneficiaryIFSC</Name>
+               <Value>HDJDJSJJSJS</Value>
+            </NameValuePair>
+            <NameValuePair>
+               <Name>TransactionPurposeId</Name>
+               <Value>2</Value>
+            </NameValuePair>
+         </CustomProperties>
+         <EmailAddress>navinharthick6767@gmail.com</EmailAddress>
+         <FirstName>Naveen</FirstName>
+         <Id>75330</Id>
+         <LastName>M</LastName>
+         <MiddleName>Kumar</MiddleName>
+         <MobileNumber>9999999999</MobileNumber>
+         <PhoneNumber i:nil="true" />
+         <PostalCode />
+         <RemitDisabled>False</RemitDisabled>
+         <RemittanceCurrency>INR</RemittanceCurrency>
+         <RemittanceGatewayId>60</RemittanceGatewayId>
+         <SecurityCode>ef7d5339-e6ea-40db-9d9d-0d44fd6389da</SecurityCode>
+         <State />
+         <StreetAddress1>Shhd</StreetAddress1>
+         <StreetAddress2 />
+         <TransactionPurposeId>2</TransactionPurposeId>
+      </RecipientItem>
+      <RecipientItem>
+         <City>Hello hehd</City>
+         <Country>India</Country>
+         <CustomProperties>
+            <NameValuePair>
+               <Name>beneficiaryAccountNo</Name>
+               <Value>45646464646646464646</Value>
+            </NameValuePair>
+            <NameValuePair>
+               <Name>beneficiaryIFSC</Name>
+               <Value>HDJDJSJJSJS</Value>
+            </NameValuePair>
+            <NameValuePair>
+               <Name>TransactionPurposeId</Name>
+               <Value>2</Value>
+            </NameValuePair>
+         </CustomProperties>
+         <EmailAddress>navinharthick6767@gmail.com</EmailAddress>
+         <FirstName>Naveen</FirstName>
+         <Id>75331</Id>
+         <LastName>M</LastName>
+         <MiddleName>Kumar</MiddleName>
+         <MobileNumber>9999999999</MobileNumber>
+         <PhoneNumber i:nil="true" />
+         <PostalCode />
+         <RemitDisabled>False</RemitDisabled>
+         <RemittanceCurrency>INR</RemittanceCurrency>
+         <RemittanceGatewayId>60</RemittanceGatewayId>
+         <SecurityCode>63d61178-eaa0-4367-86c5-3bf03197df2f</SecurityCode>
+         <State />
+         <StreetAddress1>Shhd</StreetAddress1>
+         <StreetAddress2 />
+         <TransactionPurposeId>2</TransactionPurposeId>
+      </RecipientItem>
+      <RecipientItem>
+         <City />
+         <Country>India</Country>
+         <CustomProperties>
+            <NameValuePair>
+               <Name>beneficiaryAccountNo</Name>
+               <Value />
+            </NameValuePair>
+            <NameValuePair>
+               <Name>beneficiaryIFSC</Name>
+               <Value />
+            </NameValuePair>
+            <NameValuePair>
+               <Name>TransactionPurposeId</Name>
+               <Value>1</Value>
+            </NameValuePair>
+         </CustomProperties>
+         <EmailAddress>navinharthick6767@gmail.com</EmailAddress>
+         <FirstName>Naveen</FirstName>
+         <Id>75335</Id>
+         <LastName>M</LastName>
+         <MiddleName>Kumar</MiddleName>
+         <MobileNumber>9999999999</MobileNumber>
+         <PhoneNumber i:nil="true" />
+         <PostalCode />
+         <RemitDisabled>False</RemitDisabled>
+         <RemittanceCurrency>INR</RemittanceCurrency>
+         <RemittanceGatewayId>60</RemittanceGatewayId>
+         <SecurityCode>901eadeb-4ff1-4679-818f-377541fe128e</SecurityCode>
+         <State />
+         <StreetAddress1>Ddd</StreetAddress1>
+         <StreetAddress2 />
+         <TransactionPurposeId>1</TransactionPurposeId>
+      </RecipientItem>
+      <RecipientItem>
+         <City />
+         <Country>India</Country>
+         <CustomProperties>
+            <NameValuePair>
+               <Name>beneficiaryAccountNo</Name>
+               <Value />
+            </NameValuePair>
+            <NameValuePair>
+               <Name>beneficiaryIFSC</Name>
+               <Value />
+            </NameValuePair>
+            <NameValuePair>
+               <Name>TransactionPurposeId</Name>
+               <Value>1</Value>
+            </NameValuePair>
+         </CustomProperties>
+         <EmailAddress />
+         <FirstName>Aaaaaaaaaa</FirstName>
+         <Id>75336</Id>
+         <LastName>F</LastName>
+         <MiddleName />
+         <MobileNumber>1587-678-78</MobileNumber>
+         <PhoneNumber i:nil="true" />
+         <PostalCode />
+         <RemitDisabled>False</RemitDisabled>
+         <RemittanceCurrency>INR</RemittanceCurrency>
+         <RemittanceGatewayId>60</RemittanceGatewayId>
+         <SecurityCode>f31481a4-309a-434f-a11d-90fcea9bb731</SecurityCode>
+         <State />
+         <StreetAddress1>Ff</StreetAddress1>
+         <StreetAddress2 />
+         <TransactionPurposeId>1</TransactionPurposeId>
+      </RecipientItem>
+      <RecipientItem>
+         <City />
+         <Country>India</Country>
+         <CustomProperties>
+            <NameValuePair>
+               <Name>beneficiaryAccountNo</Name>
+               <Value />
+            </NameValuePair>
+            <NameValuePair>
+               <Name>beneficiaryIFSC</Name>
+               <Value />
+            </NameValuePair>
+            <NameValuePair>
+               <Name>TransactionPurposeId</Name>
+               <Value>1</Value>
+            </NameValuePair>
+         </CustomProperties>
+         <EmailAddress />
+         <FirstName>Aaaaaaaaaa</FirstName>
+         <Id>75337</Id>
+         <LastName>F</LastName>
+         <MiddleName />
+         <MobileNumber>1587-678-78</MobileNumber>
+         <PhoneNumber i:nil="true" />
+         <PostalCode />
+         <RemitDisabled>False</RemitDisabled>
+         <RemittanceCurrency>INR</RemittanceCurrency>
+         <RemittanceGatewayId>60</RemittanceGatewayId>
+         <SecurityCode>91ac247c-880a-48de-954c-93471b206603</SecurityCode>
+         <State />
+         <StreetAddress1>Ff</StreetAddress1>
+         <StreetAddress2 />
+         <TransactionPurposeId>1</TransactionPurposeId>
+      </RecipientItem>
+      <RecipientItem>
+         <City />
+         <Country>India</Country>
+         <CustomProperties>
+            <NameValuePair>
+               <Name>beneficiaryAccountNo</Name>
+               <Value />
+            </NameValuePair>
+            <NameValuePair>
+               <Name>beneficiaryIFSC</Name>
+               <Value />
+            </NameValuePair>
+            <NameValuePair>
+               <Name>TransactionPurposeId</Name>
+               <Value>1</Value>
+            </NameValuePair>
+         </CustomProperties>
+         <EmailAddress>navinharthick6767@gmail.com</EmailAddress>
+         <FirstName>Naveen</FirstName>
+         <Id>75338</Id>
+         <LastName>M</LastName>
+         <MiddleName>Kumar</MiddleName>
+         <MobileNumber>9999999999</MobileNumber>
+         <PhoneNumber i:nil="true" />
+         <PostalCode />
+         <RemitDisabled>False</RemitDisabled>
+         <RemittanceCurrency>INR</RemittanceCurrency>
+         <RemittanceGatewayId>60</RemittanceGatewayId>
+         <SecurityCode>36722c49-ea6b-4707-9964-9133aae24913</SecurityCode>
+         <State />
+         <StreetAddress1>Vb</StreetAddress1>
+         <StreetAddress2 />
+         <TransactionPurposeId>1</TransactionPurposeId>
+      </RecipientItem>
+      <RecipientItem>
+         <City>Gff</City>
+         <Country>India</Country>
+         <CustomProperties>
+            <NameValuePair>
+               <Name>beneficiaryAccountNo</Name>
+               <Value />
+            </NameValuePair>
+            <NameValuePair>
+               <Name>beneficiaryIFSC</Name>
+               <Value />
+            </NameValuePair>
+            <NameValuePair>
+               <Name>TransactionPurposeId</Name>
+               <Value>2</Value>
+            </NameValuePair>
+         </CustomProperties>
+         <EmailAddress>navinharthick6767@gmail.com</EmailAddress>
+         <FirstName>Naveen</FirstName>
+         <Id>75339</Id>
+         <LastName>M</LastName>
+         <MiddleName>Kumar</MiddleName>
+         <MobileNumber>9999999999</MobileNumber>
+         <PhoneNumber i:nil="true" />
+         <PostalCode />
+         <RemitDisabled>False</RemitDisabled>
+         <RemittanceCurrency>INR</RemittanceCurrency>
+         <RemittanceGatewayId>60</RemittanceGatewayId>
+         <SecurityCode>3953567a-f98b-46be-a223-420ab6af73c7</SecurityCode>
+         <State />
+         <StreetAddress1>Cgh</StreetAddress1>
+         <StreetAddress2 />
+         <TransactionPurposeId>2</TransactionPurposeId>
+      </RecipientItem>
+      <RecipientItem>
+         <City />
+         <Country>India</Country>
+         <CustomProperties>
+            <NameValuePair>
+               <Name>beneficiaryAccountNo</Name>
+               <Value>121212121212</Value>
+            </NameValuePair>
+            <NameValuePair>
+               <Name />
+               <Value>ICIC0001212</Value>
+            </NameValuePair>
+            <NameValuePair>
+               <Name>beneficiaryIFSC</Name>
+               <Value />
+            </NameValuePair>
+            <NameValuePair>
+               <Name>TransactionPurposeId</Name>
+               <Value>1</Value>
+            </NameValuePair>
+         </CustomProperties>
+         <EmailAddress>navinharthick6767@gmail.com</EmailAddress>
+         <FirstName>Naveen</FirstName>
+         <Id>75425</Id>
+         <LastName>M</LastName>
+         <MiddleName>Kumar</MiddleName>
+         <MobileNumber>9999999999</MobileNumber>
+         <PhoneNumber i:nil="true" />
+         <PostalCode />
+         <RemitDisabled>False</RemitDisabled>
+         <RemittanceCurrency>INR</RemittanceCurrency>
+         <RemittanceGatewayId>60</RemittanceGatewayId>
+         <SecurityCode>1be65bf3-6ba2-4c4d-a2e5-e8b41f6ceee8</SecurityCode>
+         <State />
+         <StreetAddress1>Hello</StreetAddress1>
+         <StreetAddress2 />
+         <TransactionPurposeId>1</TransactionPurposeId>
+      </RecipientItem>
+      <RecipientItem>
+         <City />
+         <Country>India</Country>
+         <CustomProperties>
+            <NameValuePair>
+               <Name>beneficiaryAccountNo</Name>
+               <Value>121212121212</Value>
+            </NameValuePair>
+            <NameValuePair>
+               <Name />
+               <Value>ICIC0001212</Value>
+            </NameValuePair>
+            <NameValuePair>
+               <Name>beneficiaryIFSC</Name>
+               <Value />
+            </NameValuePair>
+            <NameValuePair>
+               <Name>TransactionPurposeId</Name>
+               <Value>1</Value>
+            </NameValuePair>
+         </CustomProperties>
+         <EmailAddress>navinharthick6767@gmail.com</EmailAddress>
+         <FirstName>Naveen</FirstName>
+         <Id>75426</Id>
+         <LastName>M</LastName>
+         <MiddleName>Kumar</MiddleName>
+         <MobileNumber>9999999999</MobileNumber>
+         <PhoneNumber i:nil="true" />
+         <PostalCode />
+         <RemitDisabled>False</RemitDisabled>
+         <RemittanceCurrency>INR</RemittanceCurrency>
+         <RemittanceGatewayId>60</RemittanceGatewayId>
+         <SecurityCode>da92e1cb-592c-416b-8d3b-de41b60b347d</SecurityCode>
+         <State />
+         <StreetAddress1>Hello</StreetAddress1>
+         <StreetAddress2 />
+         <TransactionPurposeId>1</TransactionPurposeId>
+      </RecipientItem>
+   </RecipientItems>
+</GetRecipientsResponse>
