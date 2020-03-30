@@ -10,21 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var tableData: [Any] = []
-    let url: String = "http://stg2be.qicsend.com/uat/PCMCoreService/PublicApiRequestProcessor/GetRecipients"
+    let api: String = "http://stg2be.qicsend.com/uat/PCMCoreService/PublicApiRequestProcessor/GetRecipients"
     
     var responses: [Response] = []
-    var elementName: String = String()
-    var FirstName = String()
-    var MiddleName = String()
-    var LastName = String()
-    var MobileNumber = String()
+    var elementName: String = ""
+    var currentEntity: Dictionary<String, String> = [:]
 
     @IBOutlet weak var tableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        if let url = URL(string: self.url) {
-            self.submit(withRequest: self.getRequest(withUrl: url))
+        if let url = URL(string: self.api) {
+            let request = self.getRequest(withUrl: url)
+            self.submit(withRequest: request)
         }
     }
     
@@ -81,39 +78,27 @@ extension ViewController: XMLParserDelegate {
     func parser(_ parser: XMLParser, didStartElement elementName: String, namespaceURI: String?, qualifiedName qName: String?, attributes attributeDict: [String : String] = [:]) {
         
         if elementName == "RecipientItem" {
-            self.FirstName = ""
-            self.MobileNumber = ""
-            self.MiddleName = ""
-            self.LastName = ""
+            self.currentEntity.forEach({ dict in
+                self.currentEntity[dict.key] = ""
+            })
         }
-        
         self.elementName = elementName
     }
 
     // 2
-    func parser(_ parser: XMLParser, didEndElement elementName: String, namespaceURI: String?, qualifiedName qName: String?) {
-        if elementName == "RecipientItem" {
-            let response = Response(FirstName: self.FirstName, MiddleName: self.MiddleName, LastName: self.LastName, MobileNumber: self.MobileNumber)
-            self.responses.append(response)
-        }
-    }
-
-    // 3
     func parser(_ parser: XMLParser, foundCharacters string: String) {
         let data = string.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
         
         if (!data.isEmpty) {
-            switch self.elementName {
-            case "FirstName":
-                self.FirstName = data
-            case "MiddleName":
-                self.MiddleName = data
-            case "LastName":
-                self.LastName = data
-            case "MobileNumber":
-                self.MobileNumber = data
-            default:
-                break
+            self.currentEntity[self.elementName] = data
+        }
+    }
+    // 3
+    func parser(_ parser: XMLParser, didEndElement elementName: String, namespaceURI: String?, qualifiedName qName: String?) {
+        if elementName == "RecipientItem" {
+            if let fName = self.currentEntity["FirstName"], let mName = self.currentEntity["MiddleName"], let lName = self.currentEntity["LastName"], let mNumber = self.currentEntity["MobileNumber"] {
+                let response = Response(FirstName: fName, MiddleName: mName, LastName: lName, MobileNumber: mNumber)
+                self.responses.append(response)
             }
         }
     }
