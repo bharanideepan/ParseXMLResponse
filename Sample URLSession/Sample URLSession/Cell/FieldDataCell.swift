@@ -20,6 +20,11 @@ class FieldDataCell: UITableViewCell {
             self.textField.field = self.field
         }
     }
+    var pickerWithToolBar: (picker: UIPickerView, toolBar: UIToolbar)? {
+        didSet {
+            self.textField.pickerWithToolBar = self.pickerWithToolBar
+        }
+    }
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)

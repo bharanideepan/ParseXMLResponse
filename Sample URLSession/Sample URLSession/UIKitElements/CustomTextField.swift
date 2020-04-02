@@ -15,6 +15,14 @@ class CustomTextField: UITextField {
     var minimumLength = 0
     var isValid: Bool = false
     var possibleValues: [PossibleValue] = []
+    var pickerWithToolBar: (picker: UIPickerView, toolBar: UIToolbar)? {
+        didSet {
+            if let pickerWithToolBar = self.pickerWithToolBar, self.possibleValues.count != 0 {
+                self.inputView = pickerWithToolBar.picker
+                self.inputAccessoryView = pickerWithToolBar.toolBar
+            }
+        }
+    }
     
     var field: Field? {
         didSet {
@@ -71,7 +79,7 @@ extension CustomTextField: UITextFieldDelegate {
     func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
         if !(self.possibleValues.count == 0) {
             let selectedTextField = ["selectedTextField": self]
-            NotificationCenter.default.post(name: Notification.Name("showPicker"), object: nil, userInfo: selectedTextField as [AnyHashable : Any])
+            NotificationCenter.default.post(name: Notification.Name("setSelectedTextField"), object: nil, userInfo: selectedTextField as [AnyHashable : Any])
         }
         return true
     }

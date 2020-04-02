@@ -37,7 +37,7 @@ class InputFieldsViewController: UIViewController {
         super.viewDidLoad()
         
         NotificationCenter.default.addObserver(self, selector: #selector(enableSubmitButton), name: Notification.Name("enableSubmitBtn"), object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(createPickerView), name: Notification.Name("showPicker"), object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(setSelectedTextField), name: Notification.Name("setSelectedTextField"), object: nil)
         self.styleSubmitBtn()
         self.registerCell()
         self.loadFieldsFromAPI()
@@ -175,26 +175,27 @@ class InputFieldsViewController: UIViewController {
     }
     
     
-    @objc func createPickerView(_ notification: NSNotification) {
+    @objc func setSelectedTextField(_ notification: NSNotification) {
         guard let userInfo = notification.userInfo else { return }
         guard let selectedTextField = userInfo["selectedTextField"] as? CustomTextField else { return }
         self.selectedTextField = selectedTextField
+    }
+    
+    func getPickerWithToolBarView() -> (picker: UIPickerView, toolBar: UIToolbar) {
         let picker = UIPickerView()
         picker.backgroundColor = .white
         picker.delegate = self
         picker.dataSource = self
-        selectedTextField.inputView = picker
         let toolBar = UIToolbar()
         toolBar.sizeToFit()
-        
-        let button = UIBarButtonItem(title: "Done", style: .plain, target: self, action: #selector(self.action))
+        let button = UIBarButtonItem(title: "Done", style: .plain, target: self, action: #selector(self.hidePicker))
         toolBar.setItems([button], animated: true)
         toolBar.isUserInteractionEnabled = true
-        selectedTextField.inputAccessoryView = toolBar
+        return (picker: picker, toolBar: toolBar)
     }
     
-    @objc func action() {
-       view.endEditing(true)
+    @objc func hidePicker() {
+        self.view.endEditing(true)
     }
 }
 
@@ -206,6 +207,7 @@ extension InputFieldsViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "FieldDataCell", for: indexPath) as! FieldDataCell
         cell.field = self.formattedFields[indexPath.row]
+        cell.pickerWithToolBar = self.getPickerWithToolBarView()
         return cell
     }
     
