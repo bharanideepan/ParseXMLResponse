@@ -16,3 +16,12 @@ struct RequestBody: Codable {
     let RequestId: String
     
 }
+
+struct FieldsDataRequest: Codable {
+    
+    let RequestId: String
+    let RemittanceOptionId: String
+    let ClientAppId: String
+    let ClientAppVersion: String
+    
+}

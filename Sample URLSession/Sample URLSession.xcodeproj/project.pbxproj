@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040E75CE24330B7000A94D28 /* InputFieldsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E75CD24330B7000A94D28 /* InputFieldsViewController.swift */; };
+		040E75D02433186100A94D28 /* APIUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E75CF2433186100A94D28 /* APIUtil.swift */; };
+		040E75DA24331E0200A94D28 /* FieldDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E75D824331E0200A94D28 /* FieldDataCell.swift */; };
+		040E75DE24332EF300A94D28 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E75DD24332EF300A94D28 /* CustomTextField.swift */; };
 		048582552431B5F2001042B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048582542431B5F2001042B2 /* AppDelegate.swift */; };
 		048582572431B5F2001042B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048582562431B5F2001042B2 /* SceneDelegate.swift */; };
 		048582592431B5F2001042B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048582582431B5F2001042B2 /* ViewController.swift */; };
@@ -20,6 +24,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		040E75CD24330B7000A94D28 /* InputFieldsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputFieldsViewController.swift; sourceTree = "<group>"; };
+		040E75CF2433186100A94D28 /* APIUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIUtil.swift; sourceTree = "<group>"; };
+		040E75D824331E0200A94D28 /* FieldDataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldDataCell.swift; sourceTree = "<group>"; };
+		040E75DD24332EF300A94D28 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		048582512431B5F2001042B2 /* Sample URLSession.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sample URLSession.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		048582542431B5F2001042B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		048582562431B5F2001042B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +53,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		040E75D124331BF300A94D28 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				048582582431B5F2001042B2 /* ViewController.swift */,
+				04858282243247AE001042B2 /* SecondViewController.swift */,
+				040E75CD24330B7000A94D28 /* InputFieldsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		040E75D224331C1D00A94D28 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				040E75CF2433186100A94D28 /* APIUtil.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		040E75D324331C2D00A94D28 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				048582682431C3DE001042B2 /* Request.swift */,
+				0485826A2431EB72001042B2 /* Response.swift */,
+				0485827C24323A3A001042B2 /* JsonResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		040E75D524331C8800A94D28 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				040E75D824331E0200A94D28 /* FieldDataCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		040E75DC24332EB800A94D28 /* UIKitElements */ = {
+			isa = PBXGroup;
+			children = (
+				040E75DD24332EF300A94D28 /* CustomTextField.swift */,
+			);
+			path = UIKitElements;
+			sourceTree = "<group>";
+		};
 		048582482431B5F2001042B2 = {
 			isa = PBXGroup;
 			children = (
@@ -66,15 +118,15 @@
 			children = (
 				048582542431B5F2001042B2 /* AppDelegate.swift */,
 				048582562431B5F2001042B2 /* SceneDelegate.swift */,
-				048582582431B5F2001042B2 /* ViewController.swift */,
 				0485825A2431B5F2001042B2 /* Main.storyboard */,
 				0485825D2431B5F3001042B2 /* Assets.xcassets */,
 				0485825F2431B5F3001042B2 /* LaunchScreen.storyboard */,
 				048582622431B5F3001042B2 /* Info.plist */,
-				048582682431C3DE001042B2 /* Request.swift */,
-				0485826A2431EB72001042B2 /* Response.swift */,
-				0485827C24323A3A001042B2 /* JsonResponse.swift */,
-				04858282243247AE001042B2 /* SecondViewController.swift */,
+				040E75DC24332EB800A94D28 /* UIKitElements */,
+				040E75D524331C8800A94D28 /* Cell */,
+				040E75D324331C2D00A94D28 /* Model */,
+				040E75D224331C1D00A94D28 /* Util */,
+				040E75D124331BF300A94D28 /* Controller */,
 			);
 			path = "Sample URLSession";
 			sourceTree = "<group>";
@@ -151,7 +203,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				04858283243247AE001042B2 /* SecondViewController.swift in Sources */,
+				040E75DE24332EF300A94D28 /* CustomTextField.swift in Sources */,
 				0485827D24323A3A001042B2 /* JsonResponse.swift in Sources */,
+				040E75CE24330B7000A94D28 /* InputFieldsViewController.swift in Sources */,
+				040E75D02433186100A94D28 /* APIUtil.swift in Sources */,
+				040E75DA24331E0200A94D28 /* FieldDataCell.swift in Sources */,
 				048582592431B5F2001042B2 /* ViewController.swift in Sources */,
 				048582692431C3DE001042B2 /* Request.swift in Sources */,
 				048582552431B5F2001042B2 /* AppDelegate.swift in Sources */,

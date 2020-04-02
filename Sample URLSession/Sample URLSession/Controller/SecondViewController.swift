@@ -17,7 +17,7 @@ class SecondViewController: UIViewController {
         super.viewDidLoad()
         
         if let url = URL(string: self.api) {
-            let request = self.getRequest(withUrl: url)
+            let request = RequestUtil.getRequest(withUrl: url, requestBody: self.getRequestBody(), acceptJSON: true)
             self.submit(withRequest: request)
         }
     }
@@ -32,25 +32,6 @@ class SecondViewController: UIViewController {
             print(error)
         }
         return jsonData
-    }
-    
-    func getBasicAuth() -> String {
-        let username = "pandiyarj@gmail.com"
-        let password = "Test1234"
-        let userPasswordString = "\(username):\(password)"
-        let userPasswordData = userPasswordString.data(using: .utf8)!
-        let base64EncodedCredential = userPasswordData.base64EncodedString()
-        return "Basic \(base64EncodedCredential)"
-    }
-    
-    func getRequest(withUrl url: URL) -> URLRequest {
-        var request = URLRequest(url: url)
-        request.httpMethod = "POST"
-        request.httpBody = self.getRequestBody()
-        request.setValue(self.getBasicAuth(), forHTTPHeaderField: "Authorization")
-        request.setValue("application/json; charset=utf-8", forHTTPHeaderField: "Content-Type")
-        request.setValue("application/json", forHTTPHeaderField: "accept")
-        return request
     }
     
     func submit(withRequest request: URLRequest) {
