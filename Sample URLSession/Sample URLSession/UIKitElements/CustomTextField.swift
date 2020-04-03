@@ -13,7 +13,16 @@ class CustomTextField: UITextField {
     let padding = UIEdgeInsets(top: 20, left: 30, bottom: 0, right: 10)
     var maximumLength = 10
     var minimumLength = 0
-    var isValid: Bool = false
+    var errorBorder: CALayer = CALayer()
+    var isValid: Bool = false {
+        didSet {
+            if self.isValid {
+                self.removeErrorBorder()
+            } else {
+                self.addErrorBorder()
+            }
+        }
+    }
     var possibleValues: [PossibleValue] = []
     var pickerWithToolBar: (picker: UIPickerView, toolBar: UIToolbar)? {
         didSet {
@@ -70,6 +79,16 @@ class CustomTextField: UITextField {
     func setText(text: String) {
         self.field?.text = text
         NotificationCenter.default.post(name: Notification.Name("enableSubmitBtn"), object: nil)
+    }
+    
+    func addErrorBorder() {
+        self.errorBorder.backgroundColor = UIColor.red.cgColor
+        self.errorBorder.frame = CGRect(x: 0, y: self.frame.size.height - 1, width: self.frame.size.width, height: 1)
+        self.layer.addSublayer(self.errorBorder)
+    }
+    
+    func removeErrorBorder() {
+        self.errorBorder.removeFromSuperlayer()
     }
     
 }
